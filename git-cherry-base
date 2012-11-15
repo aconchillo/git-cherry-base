@@ -4,6 +4,8 @@ exec guile -l $0 -c "(apply main (cdr (command-line)))" "$@"
 !#
 
 ;;
+;; Author: Aleix Conchillo Flaque <aleix@oblong.com>
+;;
 ;; Sometimes you need to merge a huge list of commits into another
 ;; branch, and you might not want all of them. "git rebase" already
 ;; helps with this task but it becomes less convenient when you have
