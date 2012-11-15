@@ -1,0 +1,19 @@
+# -*- org -*-
+
+* git-cherry-base
+
+Sometimes you need to merge a huge list of commits into a branch, and
+you might not want all of them. "git rebase" already helps with this
+task but it becomes less convenient when you have lots of commits as you
+may not remeber all of them and also because it doesn't show you the
+contents of each commit.
+
+*git-cherry-base* is an interactive script that lets you choose which
+commits you'd like to merge and even which parts of the commit you
+want. Given a list of revisions (obtained from "git rev-list") it will
+show the contents for each commit and will let you choose if you want to
+merge the commit, skip it or merge only parts of it.
+
+*git-cherry-base* receives a file with a list of revisions in it (one per
+line). The file can be obviously manually modified before giving it to
+the script.
