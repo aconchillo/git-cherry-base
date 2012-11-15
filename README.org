@@ -8,7 +8,7 @@ but it becomes less convenient when you have lots of commits as you may
 not remeber all of them and also because it doesn't show you the
 contents of each commit.
 
-*git-cherry-base* is an interactive script (written in Guile) that lets
+*git-cherry-base* is an interactive script (written in [[http://www.gnu.org/software/guile/][Guile]]) that lets
 you choose which commits you'd like to merge and even which parts of the
 commit you want. Given a list of revisions (obtained from [[http://www.kernel.org/pub/software/scm/git/docs/git-rev-list.html][git-rev-list]])
 it will show the contents for each commit and will let you choose if you
