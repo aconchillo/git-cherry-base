@@ -102,4 +102,4 @@ exec guile -l $0 -c "(apply main (cdr (command-line)))" "$@"
     ((,file-name)
      (call-with-input-file file-name cherry-base))
     (else
-     (format (current-error-port) "Usage: git-cherry-base rev-file~%"))))
+     (format (current-error-port) "Usage: git-cherry-base <rev-file>~%"))))

@@ -17,3 +17,5 @@ merge the commit, skip it or merge only parts of it.
 *git-cherry-base* receives a file with a list of revisions in it (one per
 line). The file can be obviously manually modified before giving it to
 the script.
+
+    : Usage: git-cherry-base <rev-file>
